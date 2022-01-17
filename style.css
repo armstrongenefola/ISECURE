@@ -1,0 +1,55 @@
+body{
+    background-color: #124143;
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    margin:auto;
+}
+.logo{
+    margin-top: 410px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.progress{
+    margin-top:10rem ;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn1{
+    background: #5AC994;
+border-radius: 12px;
+width: 379px;
+
+height: 60px;
+font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    
+    border:none;
+    color: #F7F7F7;
+    
+}
+
+.btn2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    background: transparent;
+    /* identical to box height */
+    border:transparent;
+    color: #5AC994;
+}

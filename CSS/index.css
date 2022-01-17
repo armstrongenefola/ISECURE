@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family:"Poppins";
+    color: white;
+}
+
+.hero-Image{
+    height: 130vh;
+    background: url(../Images/background.png) no-repeat center/cover;
+
+}
+.nav-background{
+    height: 15vh;
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 8vh;
+}
+.btn-signIn button{
+   
+    padding: 1.5rem 8rem;
+    font-weight: 700;
+    background-color: #5AC994;
+    border: #5AC994;
+    border-radius: 0.8rem;
+}
+.btn-signIn button a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+.hero-content{
+    height: 115vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -4rem;
+}
+.hero-content h1{
+    font-size: 5rem;
+    text-align: center;
+    line-height: 1;
+}
+.hero-content p{
+    margin-top: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.2;
+}
+.hero-content button{
+    margin-top: 2rem;
+    padding: 1.5rem 8rem;
+    font-weight: 700;
+    background-color: #fd630a;
+    border: #5AC994;
+    border-radius: 0.8rem;
+}
+.hero-content button a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+.section-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    flex-direction: column;
+    text-align: center;
+}
+.section-one h2{
+    font-size: 3.5rem;
+    line-height: 1.2;
+    position: relative;
+    top: 15rem;
+}
+.section-one p{
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    position: relative;
+    top: 15rem;
+}
+.laptop-love-img img{
+    height: 50rem;
+    position: relative;
+    top: 10rem;
+}
+.section-two{
+    height: 30vh;
+}
+.section-three{
+    height: 80vh;
+    background-color: #e8ffe5;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: inherit;
+}
+.section-three .left{
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-three .right{
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img-privacy{
+    height: 65%;
+    background: url(../Images/kkkk.png) no-repeat center/cover;
+}
+.content-privacy{
+    height: 65%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-privacy h1{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.section-two{
+    height: 20vh;
+}
+footer{
+    height: 40vh;
+    background-color: blue;
+}
+.footer-one{
+    height: 20vh;
+    background-color: black;
+}
+.footer-one-content{
+    height: inherit;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+    top: 15vh;
+}
+.footer-one-content a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.footer-two{
+    height: 20vh;
+    background-color: black;
+}
+.footer-two-content{
+    height: inherit;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.footer-two-content p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+
+
+@media(max-width:500px){
+   
+    
+    .logo img{
+        height: 5vh;
+    }
+    .btn-signIn button{
+       
+        padding: 1.2rem 5rem;
+        font-weight: 700;
+        background-color: #5AC994;
+        border: #5AC994;
+        border-radius: 0.8rem;
+    }
+  
+    .hero-content{
+        height: 115vh;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: -4rem;
+    }
+
+    .section-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: black;
+        flex-direction: column;
+        text-align: center;
+    }
+    .section-one h2{
+        font-size: 2rem;
+        line-height: 1.2;
+        position: relative;
+        top: 5rem;
+    }
+    .section-one p{
+        margin-top: 1.5rem;
+        font-size: 1.6rem;
+        line-height: 1.2;
+        position: relative;
+        /* top: 15rem; */
+    }
+    .laptop-love-img img{
+        height: 50rem;
+        margin-left:3rem;
+        width:660px;
+        position: relative;
+        top: 10rem;
+    }
+    .section-two{
+        height: 20vh;
+    }
+    .section-three{
+        height: 40vh;
+        background-color: #e8ffe5;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-row: inherit;
+        margin-top:-25rem;
+    }
+    .section-three .left{
+        grid-row: 1;
+        grid-column: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-three .right{
+        grid-row: 1;
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .img-privacy{
+        height: 30%;
+        background: url(../Images/kkkk.png) no-repeat center/cover;
+    }
+    .content-privacy{
+        height: 40%;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-privacy h1{
+        font-size: 1.7rem;
+        font-weight: bolder;
+    }
+   
+    footer{
+        height: 40vh;
+        background-color: blue;
+    }
+    .footer-one{
+        height: 20vh;
+        background-color: black;
+    }
+    .footer-one-content{
+        height: inherit;
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+       flex-direction:column;
+        align-items: baseline;
+        position: relative;
+        top: 15vh;
+    }
+    .footer-one-content a{
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+    }
+    
+    .footer-two{
+        height: 20vh;
+        background-color: black;
+    }
+    .footer-two-content{
+        height: inherit;
+        width: 30%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .footer-two-content p{
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+    
+
+}
